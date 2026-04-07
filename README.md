@@ -8,12 +8,15 @@ The objective is to identify drop-offs across key stages of the user journey and
 ---
 
 ## 📁 Dataset
-- Source: Kaggle (E-commerce Clickstream Data)
-- Tables used:
-  - `events` → user actions (page_view, add_to_cart, checkout, purchase)
-  - `sessions` → traffic source, device, country
-  - `orders` → revenue-related data
+- Source: Kaggle  
+- Link: https://www.kaggle.com/datasets/wafaaelhusseini/e-commerce-transactions-clickstream/data  
 
+This is a synthetic multi-table dataset simulating an e-commerce platform, including user sessions, clickstream events, and transactions. :contentReference[oaicite:0]{index=0}
+
+Tables used in this project:
+- `events` → user actions (page_view, add_to_cart, checkout, purchase)
+- `sessions` → traffic source, device, country
+- `orders` → revenue-related data
 ---
 
 ## 🛠️ Tools & Technologies
